@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/736750787999772203/b19de5672f1c49ed9d2b23ba6336c842/artifacts
+end_time: 1738910468367
+entry_point_name: ''
+experiment_id: '736750787999772203'
+lifecycle_stage: active
+run_id: b19de5672f1c49ed9d2b23ba6336c842
+run_name: mlops
+run_uuid: b19de5672f1c49ed9d2b23ba6336c842
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738910463740
+status: 3
+tags: []
+user_id: Pranita
