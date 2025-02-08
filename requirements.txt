@@ -3,5 +3,5 @@ numpy
 mlflow
 scikit-learn
 # postgree sql to your computer
-psycopg2
+psycopg2-binary
 django

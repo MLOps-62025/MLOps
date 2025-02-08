@@ -55,7 +55,7 @@ ROOT_URLCONF = 'webapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': [BASE_DIR/'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'webapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'aissm',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD':'Pranita@07',
-        'HOST': 'localhost',
+        'PASSWORD':'pranita@24',
+        'HOST': 'db',
         'PORT': '5432'
     }
 }
