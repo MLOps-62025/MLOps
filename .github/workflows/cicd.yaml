@@ -36,4 +36,9 @@ jobs:
         with:
           context: .
           push: true
-          tags: pranita24/webapp:latest
+          tags: tanzeemrugrel/webapp:latest
+      - name: Image Scan
+        run: trivy image tanzeemrugrel/webapp:latest > scan.txt
+
+    #   - name: Trivy Compliance
+    #     run: trivy image --compliance docker-cis tanzeemrugrel/webapp:latest > compliance.txt
