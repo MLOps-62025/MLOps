@@ -6,7 +6,7 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 COPY ./requirements.txt /requirements.txt
-COPY ./models/models.joblib /models/models.joblib
+COPY ./models/model.joblib /models/model.joblib
 COPY ./webapp /app/webapp
 
 EXPOSE 8000

@@ -8,7 +8,7 @@ def index(request):
     return render(request,'index.html')
 
 def result(request):
-    cls = joblib.load('../models/model.joblib')
+    cls = joblib.load('../app/models/model.joblib')
     list = []
     list.append(int(request.GET['age']))
     list.append(int(request.GET['sex']))
