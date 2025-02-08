@@ -19,6 +19,9 @@ estimators:
     params:
       alpha: 0.9
       l1_ratio: 0.2
+  RandomForestClassifier:
+    params:
+      criterion: entropy
 
 model_path: models/models.joblib
 
